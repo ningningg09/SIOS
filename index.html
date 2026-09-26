@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Survive in Outer Space!</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- INTRODUCTION -->
+
+<div id="intro">
+
+    <h1>🚀 Survive in Outer Space!</h1>
+
+    <p>
+        You are responsible for keeping a space outpost alive.
+    </p>
+
+    <p>
+        Manage your limited oxygen, food, and power
+        while dealing with unexpected problems.
+    </p>
+
+    <h2>Choose Your Outpost</h2>
+
+    <p>
+        Which environment will you try to survive?
+    </p>
+
+    <button onclick="chooseLunar()">
+        🌕 Lunar Outpost
+    </button>
+
+    <button onclick="chooseMartian()">
+        🔴 Martian Outpost
+    </button>
+
+</div>
+
+
+<!-- LUNAR INTRO -->
+
+<div id="lunarGame" class="hidden">
+
+    <h1>🌕 Lunar Outpost</h1>
+
+    <p>
+        The Moon has limited resources and a harsh environment.
+    </p>
+
+    <p>
+        Your goal is to keep the outpost alive for 15 days.
+        Each day your stats decreases by 5% automatically.
+    </p>
+
+    <h3>Starting Resources</h3>
+
+    <div class="resources">
+
+        <div class="resource">
+            🫁 Oxygen: 100%
+        </div>
+
+        <div class="resource">
+            🍎 Food: 100%
+        </div>
+
+        <div class="resource">
+            ⚡ Power: 100%
+        </div>
+
+        <div class="resource">
+            🛡️ Radiation Shielding: 100%
+        </div>
+
+    </div>
+
+    <button onclick="startLunarGame()">
+        Start Lunar Mission
+    </button>
+
+</div>
+
+
+<!-- MARTIAN INTRO -->
+
+<div id="martianGame" class="hidden">
+
+    <h1>🔴 Martian Outpost</h1>
+
+    <p>
+        Mars is more difficult than the Moon.
+    </p>
+
+    <p>
+        Random events will be more dangerous.
+        Each day your stats decreases by 5% automatically.
+    </p>
+
+    <h3>Starting Resources</h3>
+
+    <div class="resources">
+
+        <div class="resource">
+
+            🫁 Oxygen: 100%
+
+        </div>
+
+        <div class="resource">
+
+            🍎 Food: 100%
+
+        </div>
+
+        <div class="resource">
+
+            ⚡ Power: 100%
+
+        </div>
+
+        <div class="resource">
+
+            🛡️ Radiation Shielding: 100%
+
+        </div>
+
+    </div>
+
+    <button onclick="startMartianGame()">
+        Start Martian Mission
+    </button>
+
+</div>
+
+
+<!-- MAIN GAME -->
+
+<div id="mainGame" class="hidden">
+
+    <h1 id="outpostTitle"></h1>
+
+    <h2>
+        Day <span id="currentDay">1</span> / 15
+    </h2>
+
+
+    <!-- RESOURCE STATUS -->
+
+    <div class="resources">
+
+        <h2>Resource Status</h2>
+
+        <div class="resource">
+
+            🫁 Oxygen:
+            <span id="oxygen">100</span>%
+
+        </div>
+
+        <div class="resource">
+
+            🍎 Food:
+            <span id="food">100</span>%
+
+        </div>
+
+        <div class="resource">
+
+            ⚡ Power:
+            <span id="power">100</span>%
+
+        </div>
+
+        <div class="resource">
+
+            🛡️ Radiation Shielding:
+            <span id="shieldingStat">100</span>%
+
+        </div>
+
+    </div>
+
+
+    <!-- EVENT -->
+
+    <div class="event">
+
+        <h2 id="eventTitle">
+            🚀 Mission Started
+        </h2>
+
+        <p id="eventMessage">
+            Your mission has begun.
+        </p>
+
+        <div id="choices"></div>
+
+    </div>
+
+
+    <button id="nextButton" onclick="nextDay()">
+        Next Day
+    </button>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+  
