@@ -2,6 +2,9 @@
 
 A beginner-friendly HTML, CSS, and JavaScript space survival game where you manage the resources of a lunar or Martian outpost and make decisions to keep the crew alive.
 
+**PLAY THE GAME!!**
+https://ningningg09.github.io/SIOS/ 
+
 > ⚠️ **info**
 >
 > This is a personal project inspired by the general concept of NASA Space Apps challenges. It is **not an official NASA Space Apps submission** and was created before the official hackathon challenge parameters were available. It **will not** be submitted to any current or future hackathons.  
