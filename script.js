@@ -419,7 +419,6 @@ function startMission() {
 }
 
 
-// NEXT DAY
 
 function nextDay() {
 
@@ -608,7 +607,6 @@ function createChoices(choices) {
 }
 
 
-// CHOOSE AN OPTION
 
 function chooseOption(choice) {
 
@@ -622,7 +620,6 @@ function chooseOption(choice) {
         choice.radiationShielding || 0;
 
 
-    // PREVENT NEGATIVE NUMBERS
 
     if (oxygen < 0) {
 
@@ -668,7 +665,6 @@ function chooseOption(choice) {
     }
 
 
-    // SHOW WHAT THE PLAYER CHOSE
 
     document.getElementById("eventMessage").innerText +=
         " You chose: " + choice.text + ".";
@@ -681,7 +677,7 @@ function chooseOption(choice) {
         false;
 
 
-    // CHECK IF PLAYER LOST
+
 
     checkGameOver();
 
@@ -707,11 +703,10 @@ function updateResources() {
 }
 
 
-// CHECK GAME OVER
 
 function checkGameOver() {
 
-    // IF ANY RESOURCE REACHES 0, YOU LOSE
+    
 
     if (
         oxygen <= 0 ||
