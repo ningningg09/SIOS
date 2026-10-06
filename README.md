@@ -5,13 +5,13 @@ A beginner-friendly HTML, CSS, and JavaScript space survival game where you mana
 **PLAY THE GAME!!**
 https://ningningg09.github.io/SIOS/ 
 
-> ⚠️ **info**
+> **info**
 >
 > This is a personal project inspired by a theme in the NASA Space Apps challenges. It is **not an official NASA Space Apps submission** and was created before the official hackathon challenge parameters were available. It **will not** be submitted to any current or future hackathons.  
 
 ## About the Project
 
-In **Survive in Outer Space!** you are responsible for managing a space outpost with limited resources.
+In **Survive in Outer Space** you are responsible for managing a space outpost with limited resources.
 
 Each day, the outpost's resources decrease automatically, and unexpected events force you to make difficult decisions.
 
@@ -22,7 +22,7 @@ You must manage:
 - Power
 - Radiation Shielding
 
-If any resource reaches **0%**, the mission fails.
+If any resource reaches 0%, the mission fails.
 
 Your goal is to survive the entire mission.
 
