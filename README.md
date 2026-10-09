@@ -5,9 +5,8 @@ A beginner-friendly HTML, CSS, and JavaScript space survival game where you mana
 **PLAY THE GAME!!**
 https://ningningg09.github.io/SIOS/ 
 
-> **info**
->
-> This is a personal project inspired by a theme in the NASA Space Apps challenges. It is **not an official NASA Space Apps submission** and was created before the official hackathon challenge parameters were available. It **will not** be submitted to any current or future hackathons.  
+**info**
+This is a personal project inspired by a theme in the NASA Space Apps challenges. It is **not an official NASA Space Apps submission** and was created before the official hackathon challenge parameters were available. It **will not** be submitted to any current or future hackathons.  
 
 ## About the Project
 
